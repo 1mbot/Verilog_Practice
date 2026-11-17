@@ -1,0 +1,195 @@
+$date
+	Tue Nov 17 23:04:17 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_vending_machine $end
+$var wire 1 ! vend $end
+$var wire 1 " change5 $end
+$var reg 1 # clk $end
+$var reg 2 $ coin [1:0] $end
+$var reg 1 % rstn $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 2 & coin [1:0] $end
+$var wire 1 % rstn $end
+$var parameter 2 ' COIN_10 $end
+$var parameter 2 ( COIN_5 $end
+$var parameter 2 ) NO_COIN $end
+$var parameter 3 * S0 $end
+$var parameter 3 + S10 $end
+$var parameter 3 , S15 $end
+$var parameter 3 - S20 $end
+$var parameter 3 . S5 $end
+$var reg 1 " change5 $end
+$var reg 3 / next_state [2:0] $end
+$var reg 3 0 present_state [2:0] $end
+$var reg 1 ! vend $end
+$upscope $end
+$scope task insert_coin $end
+$var reg 2 1 value [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 .
+b100 -
+b11 ,
+b10 +
+b0 *
+b0 )
+b1 (
+b10 '
+$end
+#0
+$dumpvars
+bx 1
+bx 0
+b0 /
+b0 &
+0%
+b0 $
+0#
+x"
+x!
+$end
+#10
+0"
+0!
+b0 0
+1#
+#20
+0#
+#30
+1#
+#40
+b1 1
+1%
+0#
+#50
+1#
+#60
+b1 /
+b1 $
+b1 &
+0#
+#70
+b10 /
+b1 0
+1#
+#80
+b1 /
+b10 1
+b0 $
+b0 &
+0#
+#90
+1#
+#100
+b10 $
+b10 &
+0#
+#110
+1#
+#120
+b0 $
+b0 &
+0#
+#130
+1#
+#140
+0#
+#150
+1#
+#160
+b10 $
+b10 &
+0#
+#170
+1#
+#180
+b0 $
+b0 &
+0#
+#190
+1#
+#200
+b10 $
+b10 &
+0#
+#210
+1#
+#220
+b0 $
+b0 &
+0#
+#230
+1#
+#240
+0#
+#250
+b1 1
+1#
+#260
+b10 /
+b1 $
+b1 &
+0#
+#270
+b11 /
+b10 0
+1#
+#280
+b10 /
+b0 $
+b0 &
+0#
+#290
+1#
+#300
+b11 /
+b1 $
+b1 &
+0#
+#310
+1"
+1!
+b0 /
+b11 0
+1#
+#320
+b0 /
+b10 1
+b0 $
+b0 &
+0#
+#330
+0"
+0!
+b0 0
+1#
+#340
+b10 /
+b10 $
+b10 &
+0#
+#350
+b100 /
+b10 0
+1#
+#360
+b10 /
+b0 $
+b0 &
+0#
+#370
+1#
+#380
+0#
+#390
+1#
