@@ -1,0 +1,6 @@
+channel,start_cycle,duration_cycles,amplitude
+A,20,5,2500
+G,60,4,1800
+A,120,8,3100
+G,200,2,2200
+A,260,1,1200
